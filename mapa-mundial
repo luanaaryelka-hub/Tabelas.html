@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Mundial</title>
+
+    <style>
+        .linha {
+            display: flex;
+            align-items: center;
+            margin: 5px;
+            border: black;
+        }
+
+        .cor {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+
+        .c1 {
+            background: #66ff66;
+            border: 1px solid black;
+        }
+
+        .c2 {
+            background: #66cc99;
+            border: 1px solid black;
+        }
+
+        .c3 {
+            background: #669999;
+            border: 1px solid black;
+        }
+
+        .c4 {
+            background: #336666;
+            border: 1px solid black;
+        }
+
+        .c5 {
+            background: #000066;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <th>Mapa mundial mostrando os censos mais recentes dos países a partir de 2014:</th>
+
+    <div class="linha">
+        <div class="cor c1"></div> 2005 ou depois
+    </div>
+
+    <div class="linha">
+        <div class="cor c2"></div> 2000–2004
+    </div>
+
+    <div class="linha">
+        <div class="cor c3"></div> 1995–1999
+    </div>
+
+    <div class="linha">
+        <div class="cor c4"></div> 1990–1994
+    </div>
+
+    <div class="linha">
+        <div class="cor c5"></div> 1970–1989
+    </div>
+
+</body>
+</html>
