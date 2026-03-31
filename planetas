@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planetas</title>
+
+    <style>
+        /* Define a fonte padrão de toda a página */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estiliza a tabela */
+        table {
+            border-collapse: collapse;
+            /* Junta as bordas das células */
+            width: 400px;
+            /* Define a largura total da tabela */
+            font-size: 1rem;
+            /* Diminui o tamanho do texto */
+        }
+
+        /* Estiliza a tabela */
+        td {
+            border: 1px solid black;
+            /* Adiciona borda nas células */
+            padding: 10px;
+            /* Espaço interno (cima/baixo e lados) */
+            text-align: center;
+            /* Centraliza o conteúdo */
+        }
+
+        /* Define o tamanho das imagens */
+        img {
+            width: 60px;
+            /* Largura da imagem */
+        }
+
+        /* Estilo do título */
+        .titulo {
+            font-weight: bold;
+            /* Deixa o texto em negrito */
+            margin-bottom: 20px;
+            /* Espaço abaixo do título */
+            text-align: center;
+            /* Centraliza o texto */
+            width: 400px;
+            /* Mesma largura da tabela */
+        }
+
+        /* Classe para destacar texto */
+        .vermelho {
+            color: red;
+            /* Define uma cor para o texto */
+        }
+
+        .azul {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="titulo">Distâncias em relação ao <span class="vermelho">Sol</span></div>
+
+    <table>
+        <tr>
+            <th>Planeta</th>
+            <th>Nome</th>
+            <th>Distância</th>
+        </tr>
+
+        <tr>
+            <td><img src="Terra.png.jpeg"></td>
+            <td>Terra</td>
+            <td class="azul">1 AU</td>
+        </tr>
+
+        <tr>
+            <td><img src="Vênus.png.jpeg"></td>
+            <td>Vênus</td>
+            <td>0.72 AU</td>
+        </tr>
+
+        <tr>
+            <td><img src="Marte.png.jpeg"></td>
+            <td>Marte</td>
+            <td>1.52 AU</td>
+        </tr>
+
+        <tr>
+            <td><img src="Jupiter.png.jpeg"></td>
+            <td>Jupiter</td>
+            <td>5.20 AU</td>
+        </tr>
+
+        <tr>
+            <td><img src="Saturno.png.jpeg"></td>
+            <td>Saturno</td>
+            <td>9.58 AU</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
